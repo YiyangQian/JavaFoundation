@@ -1,4 +1,4 @@
-package com.yiyang.multithreading;
+package com.yiyang.multithreading.basic;
 
 public class ChildThreadDemo {
     public static void main(String[] args) {

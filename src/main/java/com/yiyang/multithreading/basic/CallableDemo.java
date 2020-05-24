@@ -1,4 +1,4 @@
-package com.yiyang.multithreading;
+package com.yiyang.multithreading.basic;
 
 import java.util.ArrayList;
 import java.util.Date;

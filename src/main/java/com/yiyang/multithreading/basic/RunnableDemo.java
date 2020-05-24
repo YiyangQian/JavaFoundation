@@ -1,4 +1,4 @@
-package com.yiyang.multithreading;
+package com.yiyang.multithreading.basic;
 
 public class RunnableDemo {
     public static void main(String[] args) {
