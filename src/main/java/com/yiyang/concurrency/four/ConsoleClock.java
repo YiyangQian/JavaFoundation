@@ -13,6 +13,7 @@ public class ConsoleClock implements Runnable {
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 System.out.println("Clock has been interrupted");
+                //critical good practice here, otherwise the thread will still be runnable
                 Thread.currentThread().interrupt();
                 return;
             }
